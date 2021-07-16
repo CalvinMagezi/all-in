@@ -1,0 +1,861 @@
+body{
+    background-image: -webkit-gradient(linear, right top, left top, from(#7414fa), color-stop(51%, #f3c435), to(#7414fa));
+  background-image: -webkit-linear-gradient(right, #7414fa 0%, #f3c435 51%, #7414fa 100%);
+  background-image: -o-linear-gradient(right, #7414fa 0%, #f3c435 51%, #7414fa 100%);
+  background-image: linear-gradient(to left, #7414fa 0%, #f3c435 51%, #7414fa 100%);
+}
+@import url("https://fonts.googleapis.com/css?family=Aclonica|Poppins:300,400,500,600&display=swap");
+/* line 2, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_extends.scss */
+.btn_1, .live_stareams .live_stareams_slide .live_stareams_slide_img:after, .Latest_War .Latest_War_text:after, .gallery_part .single_gallery_item .single_gallery_item_iner:after, .footer_part .single_footer_part .mail_part .email_icon {
+  background-image: -webkit-gradient(linear, right top, left top, from(#7414fa), color-stop(51%, #f3c435), to(#7414fa));
+  background-image: -webkit-linear-gradient(right, #7414fa 0%, #f3c435 51%, #7414fa 100%);
+  background-image: -o-linear-gradient(right, #7414fa 0%, #f3c435 51%, #7414fa 100%);
+  background-image: linear-gradient(to left, #7414fa 0%, #f3c435 51%, #7414fa 100%);
+}
+
+/* line 8, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_extends.scss */
+.main_menu .main-menu-item .nav-item a:before {
+  background-image: -webkit-gradient(linear, right top, left top, from(#f3c435), to(#7414fa));
+  background-image: -webkit-linear-gradient(right, #f3c435 0%, #7414fa 100%);
+  background-image: -o-linear-gradient(right, #f3c435 0%, #7414fa 100%);
+  background-image: linear-gradient(to left, #f3c435 0%, #7414fa 100%);
+}
+
+
+
+
+/**************menu part start*****************/
+/* line 2, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+.main_menu {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  /* line 9, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+  .main_menu .navbar-brand {
+    padding-top: 0rem;
+    padding-bottom: 0px;
+  }
+  
+  /* line 14, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+  .main_menu .navbar {
+    padding: 0px;
+  }
+  
+  /* line 18, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+  .main_menu .main-menu-item {
+    justify-content: center;
+  }
+  
+  /* line 21, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+  .main_menu .main-menu-item ul li .nav-link {
+    color: #fff;
+    font-size: 15px;
+    padding: 43px 23px;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+    line-height: 12px;
+    font-weight: 400;
+  }
+  
+  /* line 29, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+  .main_menu .main-menu-item ul li .nav-link:hover {
+    color: #fff;
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 21, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+    .main_menu .main-menu-item ul li .nav-link {
+      padding: 35px 20px;
+    }
+  }
+  
+  /* line 39, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+  .main_menu .main-menu-item .nav-item a {
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* line 42, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+  .main_menu .main-menu-item .nav-item a:before {
+    position: absolute;
+    left: 16%;
+    top: 49px;
+    width: 0%;
+    height: 2px;
+    content: "";
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  /* line 53, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+  .main_menu .main-menu-item .nav-item a:hover:before {
+    width: 67%;
+  }
+  
+  /* line 62, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+  .main_menu #search_1 i {
+    color: #fff;
+  }
+  
+  /* line 69, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+  .main_menu .dropdown-toggle:hover .nav-item .dropdown {
+    color: #7414fa !important;
+  }
+  
+  /* line 75, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+  .main_menu #search_input_box {
+    position: fixed;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 1140px;
+    z-index: 999;
+    text-align: center;
+    background: #7414fa;
+  }
+  
+  /* line 89, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+  .main_menu #search_input_box ::placeholder {
+    color: #fff;
+  }
+  
+  @media (max-width: 991px) {
+    /* line 75, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+    .main_menu #search_input_box {
+      margin-top: 15px;
+    }
+  }
+  
+  /* line 99, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+  .main_menu #search_input_box .form-control {
+    background: transparent;
+    border: 0;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 0;
+  }
+  
+  /* line 108, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+  .main_menu #search_input_box .btn {
+    width: 0;
+    height: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  /* line 115, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+  .main_menu #search_input_box .ti-close {
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px;
+    padding-right: 0;
+  }
+  
+  /* line 124, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+  .main_menu .search-inner {
+    padding: 5px 5px;
+  }
+  
+  /* line 128, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+  .main_menu .form-control:focus {
+    box-shadow: none;
+  }
+  
+  /* line 132, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+  .main_menu .active_color {
+    color: #f5790b !important;
+  }
+  
+  /* line 137, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+  .cart {
+    margin-left: 20px;
+  }
+  
+  /* line 140, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+  .cart .dropdown-toggle::after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border: 0px solid transparent;
+  }
+  
+  /* line 148, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+  .cart i {
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    font-size: 15px;
+  }
+  
+  /* line 154, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+  .cart i:after {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #f13d80;
+    width: 14px;
+    height: 14px;
+    right: -8px;
+    top: -8px;
+    content: "5";
+    text-align: center;
+    line-height: 15px;
+    font-size: 10px;
+  }
+  
+  /* line 171, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+  .menu_fixed {
+    position: fixed;
+    z-index: 9999 !important;
+    width: 100%;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05);
+    top: 0;
+    background-color: #7414fa;
+  }
+  
+  /* line 179, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+  .menu_fixed .active_color {
+    color: #7414fa !important;
+  }
+  
+  /* line 185, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+  .dropdown .dropdown-menu {
+    transition: all 0.5s;
+    overflow: hidden;
+    transform-origin: top center;
+    transform: scale(1, 0);
+    display: block;
+    border: 0px solid transparent;
+    background-color: #7414fa;
+  }
+  
+  /* line 194, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+  .dropdown .dropdown-menu .dropdown-item {
+    font-size: 14px;
+    padding: 8px 20px !important;
+    color: #fff !important;
+    background-color: #7414fa;
+    text-transform: capitalize;
+  }
+  
+  /* line 205, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+  .dropdown:hover .dropdown-menu {
+    transform: scale(1);
+  }
+  
+  @media (max-width: 991px) {
+    /* line 214, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+    .main_menu {
+      padding: 26px 0px;
+    }
+    /* line 218, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+    .home_menu .main-menu-item {
+      padding-left: 0px;
+    }
+    /* line 222, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+    .main_menu .main-menu-item {
+      text-align: left !important;
+    }
+    /* line 225, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+    .main_menu .main-menu-item .nav-item {
+      padding: 10px 15px !important;
+    }
+    /* line 228, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+    .main_menu .main-menu-item .nav-item .nav-link {
+      padding: 5px 15px !important;
+      color: #000;
+    }
+    /* line 235, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+    .navbar-collapse {
+      z-index: 9999 !important;
+      position: absolute;
+      left: 0;
+      top: 50px;
+      width: 100%;
+      background-color: #fff;
+      text-align: center !important;
+    }
+    /* line 246, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+    .dropdown .dropdown-menu {
+      transform: scale(1, 0);
+      display: none;
+      margin-top: 10px;
+    }
+    /* line 253, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+    .dropdown:hover .dropdown-menu {
+      transform: scale(1);
+      display: block;
+      color: #7414fa;
+    }
+    /* line 260, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+    .dropdown .dropdown-item:hover {
+      color: #7414fa !important;
+    }
+    /* line 265, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+    .navbar-brand img {
+      max-width: 100px;
+    }
+    /* line 269, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+    .navbar-light .navbar-toggler {
+      border-color: transparent;
+    }
+    /* line 274, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+    .menu_icon i {
+      color: #fff;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 281, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+    .navbar-collapse {
+      z-index: 9999 !important;
+      position: absolute;
+      left: 0;
+      top: 50px;
+      width: 100%;
+      background-color: #fff;
+      text-align: center !important;
+    }
+    /* line 291, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+    .navbar-brand img {
+      max-width: 100px;
+      margin: 0 auto;
+      position: absolute;
+      left: 0;
+      right: 0;
+      display: inline-block;
+      top: 10px;
+    }
+    /* line 301, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+    .navbar-light .navbar-toggler {
+      border-color: transparent;
+      position: absolute;
+      left: 0;
+    }
+    /* line 307, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+    .btn_1 {
+      margin-top: 0;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 313, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+    .navbar-collapse {
+      z-index: 9999 !important;
+      position: absolute;
+      left: 0;
+      top: 50px;
+      width: 100%;
+      background-color: #fff;
+      text-align: center !important;
+    }
+    /* line 323, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+    .navbar-brand img {
+      max-width: 100px;
+      margin: 0 auto;
+      position: absolute;
+      left: 0;
+      right: 0;
+      display: inline-block;
+      top: 10px;
+    }
+    /* line 333, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+    .navbar-light .navbar-toggler {
+      border-color: transparent;
+      position: absolute;
+      left: 0;
+    }
+    /* line 339, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+    .btn_1 {
+      margin-top: 0;
+    }
+  }
+  
+  /* line 344, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+  .dropdown-menu {
+    border: 0px solid rgba(0, 0, 0, 0.15) !important;
+    background-color: #fafafa;
+  }
+  
+  /* line 350, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  /* line 358, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+  .single_page_menu .main-menu-item .nav-item a {
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* line 361, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+  .single_page_menu .main-menu-item .nav-item a:before {
+    position: absolute;
+    left: 16%;
+    top: 49px;
+    width: 0%;
+    height: 2px;
+    content: "";
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  /* line 372, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+  .single_page_menu .main-menu-item .nav-item a:hover:before {
+    width: 67%;
+  }
+
+  /* line 24, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_button.scss */
+.btn_1 {
+    display: inline-block;
+    padding: 18.5px 40px;
+    border-radius: 0;
+    font-size: 15px;
+    font-family: "Aclonica", sans-serif;
+    font-weight: 500;
+    color: #fff;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    text-transform: capitalize;
+    background-size: 200% auto;
+    border: 1px solid transparent;
+  }
+  
+  /* line 39, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_button.scss */
+  .btn_1:hover {
+    color: #fff !important;
+    background-position: right center;
+  }
+  
+  @media (max-width: 576px) {
+    /* line 24, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_button.scss */
+    .btn_1 {
+      padding: 10px 30px;
+      margin-top: 20px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 24, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_button.scss */
+    .btn_1 {
+      padding: 10px 30px;
+      margin-top: 20px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 24, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_button.scss */
+    .btn_1 {
+      padding: 10px 30px;
+      margin-top: 25px;
+    }
+  }
+
+  /**************** upcomming war css start ****************/
+/* line 2, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_upcomming_war.scss */
+.upcomming_war {
+    background-image: url(../img/event_bg.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  
+  /* line 7, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_upcomming_war.scss */
+  .upcomming_war .upcomming_war_iner {
+    height: 725px;
+  }
+  
+  @media (max-width: 991px) {
+    /* line 7, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_upcomming_war.scss */
+    .upcomming_war .upcomming_war_iner {
+      height: 350px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 7, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_upcomming_war.scss */
+    .upcomming_war .upcomming_war_iner {
+      height: 450px;
+    }
+  }
+  
+  /* line 15, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_upcomming_war.scss */
+  .upcomming_war .upcomming_war_iner h2 {
+    margin-bottom: 25px;
+  }
+  
+  @media (max-width: 991px) {
+    /* line 15, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_upcomming_war.scss */
+    .upcomming_war .upcomming_war_iner h2 {
+      font-size: 25px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 15, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_upcomming_war.scss */
+    .upcomming_war .upcomming_war_iner h2 {
+      font-size: 29px;
+    }
+  }
+  
+  /* line 25, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_upcomming_war.scss */
+  .upcomming_war span {
+    display: block;
+    font-size: 20px;
+    color: white;
+  }
+  
+  /* line 30, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_upcomming_war.scss */
+  .upcomming_war #days {
+    font-size: 48px;
+    color: #ffffff;
+  }
+  
+  /* line 34, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_upcomming_war.scss */
+  .upcomming_war #hours {
+    font-size: 48px;
+    color: #fff;
+  }
+
+  /* line 3, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_Latest_War.scss */
+.Latest_War .Latest_War_text {
+    background-image: url("../img/latest_war_img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 580px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 40px;
+  }
+  
+  @media (max-width: 991px) {
+    /* line 3, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_Latest_War.scss */
+    .Latest_War .Latest_War_text {
+      height: 400px;
+      margin-bottom: 0;
+    }
+  }
+  
+  /* line 16, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_Latest_War.scss */
+  .Latest_War .Latest_War_text:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-size: 200% auto;
+    opacity: 0;
+    -webkit-transition: all 0.6s ease 0s;
+    -moz-transition: all 0.6s ease 0s;
+    -o-transition: all 0.6s ease 0s;
+    transition: all 0.6s ease 0s;
+  }
+  
+  /* line 28, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_Latest_War.scss */
+  .Latest_War .Latest_War_text .btn_2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 45%;
+    text-align: center;
+    display: inline-block;
+    z-index: 9;
+    opacity: 0;
+    width: 200px;
+    padding: 18.5px 0;
+  }
+  
+  /* line 43, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_Latest_War.scss */
+  .Latest_War .Latest_War_text:hover:after {
+    opacity: .7;
+  }
+  
+  /* line 47, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_Latest_War.scss */
+  .Latest_War .Latest_War_text:hover .btn_2 {
+    opacity: 1;
+    visibility: visible;
+    z-index: 99;
+  }
+  
+  /* line 54, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_Latest_War.scss */
+  .Latest_War .Latest_War_bg_1 {
+    background-image: url("../img/latest_war_img_1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* line 57, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_Latest_War.scss */
+  .Latest_War .single_war_text {
+    height: 100%;
+  }
+  
+  /* line 60, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_Latest_War.scss */
+  .Latest_War .single_war_text h4 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 16px;
+  }
+  
+  /* line 66, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_Latest_War.scss */
+  .Latest_War .single_war_text p {
+    font-size: 16px;
+    font-family: "Aclonica", sans-serif;
+  }
+  
+  /* line 71, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_Latest_War.scss */
+  .Latest_War .single_war_text a {
+    display: inline-block;
+    background: linear-gradient(to right, #7414fa 0%, #f3c435 50%, #7414fa 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% auto;
+    -webkit-transition: all 0.6s ease 0s;
+    -moz-transition: all 0.6s ease 0s;
+    -o-transition: all 0.6s ease 0s;
+    transition: all 0.6s ease 0s;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-top: 8px;
+  }
+  
+  /* line 19, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_mixins.scss */
+  .Latest_War .single_war_text a:hover {
+    background-position: center right;
+  }
+  
+  /* line 80, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_Latest_War.scss */
+  .Latest_War .war_text_item {
+    margin-top: 25px;
+  }
+  
+  @media (max-width: 991px) {
+    /* line 83, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_Latest_War.scss */
+    .Latest_War .war_text_item img {
+      max-width: 50px;
+    }
+  }
+  
+  /* line 90, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_Latest_War.scss */
+  .Latest_War .war_text_item h2 {
+    font-size: 30px;
+  }
+  
+  @media (max-width: 991px) {
+    /* line 90, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_Latest_War.scss */
+    .Latest_War .war_text_item h2 {
+      font-size: 20px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 90, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_Latest_War.scss */
+    .Latest_War .war_text_item h2 {
+      font-size: 20px;
+    }
+  }
+  
+  /* line 100, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_Latest_War.scss */
+  .Latest_War .war_text_item span {
+    margin: 0 15px;
+  }
+  
+  @media (max-width: 991px) {
+    /* line 105, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_Latest_War.scss */
+    .Latest_War .latest_war_list {
+      margin-bottom: 40px;
+    }
+  }
+  
+  /* line 109, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_Latest_War.scss */
+  .Latest_War .latest_war_list .war_text_item {
+    padding-left: 43px;
+  }
+  
+  @media (max-width: 991px) {
+    /* line 109, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_Latest_War.scss */
+    .Latest_War .latest_war_list .war_text_item {
+      padding-left: 0;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    /* line 109, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_Latest_War.scss */
+    .Latest_War .latest_war_list .war_text_item {
+      padding-left: 0;
+      display: block !important;
+      text-align: center;
+    }
+  }
+  
+  /* line 120, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_Latest_War.scss */
+  .Latest_War .latest_war_list .war_text_item img {
+    max-width: 50px;
+  }
+  
+  /* line 123, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_Latest_War.scss */
+  .Latest_War .latest_war_list .war_text_item h2 {
+    font-size: 16px;
+  }
+  
+  /* line 127, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_Latest_War.scss */
+  .Latest_War .latest_war_list .war_text_item .war_date p {
+    font-size: 17px;
+  }
+
+  /************use_sasu css start***************/
+/* line 2, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+.pricing_part {
+    position: relative;
+    z-index: 1;
+    position: relative;
+    z-index: 99;
+  }
+  
+  /* line 8, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+  .pricing_part .single_pricing_part {
+    text-align: center;
+    padding: 35px 35px 60px;
+    background-color: #0b111f;
+    position: relative;
+    z-index: 1;
+    background-image: url(../img/pricing_bg.png);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  @media (max-width: 991px) {
+    /* line 8, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+    .pricing_part .single_pricing_part {
+      padding: 20px 15px;
+      margin-bottom: 15px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 8, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+    .pricing_part .single_pricing_part {
+      padding: 20px;
+    }
+  }
+  
+  /* line 26, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+  .pricing_part .single_pricing_part img {
+    margin-bottom: 18px;
+    height: 65px;
+  }
+  
+  /* line 30, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+  .pricing_part .single_pricing_part p {
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 55px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+  }
+  
+  @media (max-width: 991px) {
+    /* line 30, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+    .pricing_part .single_pricing_part p {
+      margin-bottom: 25px;
+    }
+  }
+  
+  /* line 46, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+  .pricing_part .single_pricing_part h3 {
+    font-size: 36px;
+    font-weight: 600;
+  }
+  
+  /* line 49, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+  .pricing_part .single_pricing_part h3 span {
+    font-size: 16px;
+    color: #919191;
+    font-weight: 400;
+  }
+  
+  /* line 56, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+  .pricing_part .single_pricing_part .btn_2 {
+    padding: 18.5px 42px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid;
+    border-image: linear-gradient(to left, #7414fa 0%, #f3c435 100%);
+    border-image-slice: 1;
+  }
+  
+  /* line 64, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+  .pricing_part .single_pricing_part .btn_2:hover {
+    background: linear-gradient(to left, #7414fa 0%, #f3c435 100%);
+  }
+  
+  @media (max-width: 991px) {
+    /* line 56, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+    .pricing_part .single_pricing_part .btn_2 {
+      padding: 10px 30px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 56, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+    .pricing_part .single_pricing_part .btn_2 {
+      padding: 10px 12px;
+    }
+  }
+  
+  /* line 77, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+  .pricing_part .single_pricing_part ul {
+    margin: 16px 0 22px;
+    padding-top: 37px;
+  }
+  
+  @media (max-width: 991px) {
+    /* line 77, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+    .pricing_part .single_pricing_part ul {
+      margin: 16px 0;
+      padding-top: 0;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 77, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+    .pricing_part .single_pricing_part ul {
+      margin: 20px 0;
+      padding-top: 0;
+    }
+  }
+  
+  /* line 88, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+  .pricing_part .single_pricing_part ul li {
+    font-size: 14px;
+    color: #7f7f7f;
+    text-transform: capitalize;
+    padding: 15px 0;
+    border-bottom: 1px dotted;
+  }
+  
+  /* line 94, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+  .pricing_part .single_pricing_part ul li:last-child {
+    border: 0px solid transparent;
+  }
+  
+  /* line 103, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+  .single_page_pricing .left_shape_1 {
+    display: none;
+  }
